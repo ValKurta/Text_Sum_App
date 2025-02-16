@@ -3,7 +3,7 @@ import json
 
 OLLAMA_URL = "http://localhost:9117/api/chat"
 model = "openhermes:latest"
-file_path = "text.txt"
+file_path = "data/text.txt"
 
 def generate_news_title(model_name, file_path):
     with open(file_path, "r", encoding="utf-8") as file:
